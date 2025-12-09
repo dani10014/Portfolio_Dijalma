@@ -170,7 +170,7 @@ main .card-img-top{
     main .container-sobre{
         display: flex;
         flex-direction: column;
-        height: 50vh;
+        height: 80vh;
         width: 100%;
         word-wrap: break-word;
     }
