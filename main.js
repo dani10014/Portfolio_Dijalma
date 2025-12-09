@@ -1,0 +1,1 @@
+document.querySelector("main").style.transform = "translateX(0%)";
