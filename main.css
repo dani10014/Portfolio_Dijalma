@@ -107,7 +107,6 @@ main #projetos {
     margin-bottom: 300px;/* Adiciona espaço no topo para não ficar atrás do header */
 }
 main #contato{
-    margin-top: 700px;
     background-color: black;
 }
 main #contato h2{
@@ -153,6 +152,10 @@ main .card-img-top{
     height: 200px;
 }
 @media (max-width: 768px){
+    body {
+        font-size: 14px; /* Reduz o tamanho da fonte base para telas menores */
+    }
+
     header .container-cabecalho .nome-e-img h1{
         font-size: 15px;
     }
@@ -166,9 +169,6 @@ main .card-img-top{
     header .container-cabecalho{
         padding: 0 10px;
     }
-    main #imagem-topo{
-        height: 60%;
-    }
     main .container-sobre{
         display: flex;
         flex-direction: column;
@@ -180,6 +180,15 @@ main .card-img-top{
         width: 100%;
         height: 30%;
         margin-bottom: 10px;
+    }
+    main #projetos {
+        padding-top: 100px; /* Reduz o espaçamento superior para a seção de projetos */
+        margin-bottom: 150px; /* Reduz a margem inferior */
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    main #contato {
+        margin-top: 150px; /* Reduz drasticamente a margem superior para a seção de contato */
     }
     main #contato .container-formulario{
         width: 80%;
